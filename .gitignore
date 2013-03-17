@@ -7,3 +7,9 @@ to_a/*
 *.dsw
 *.exe
 debug.txt
+
+# cmake
+CMakeCache.txt
+CMakeFiles/*
+Makefile
+cmake*
