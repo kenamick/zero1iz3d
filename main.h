@@ -7,26 +7,21 @@
   
   Engine Title: 'Zero1_IZ3D'
   
-  © 2004 Mar, April, May
-
+  Â© 2004 Mar, April, May
+  
   http://www.kenamick.com/
 
-  coded by Peter "Pro-XeX" Petrov
-  e-mail: bgpro_xex@yahoo.com
-
   -> v proces na razrabotka LoL: 
-
-
  ---------------------- points to follow
   * setting GL STATES e time-consuming	       -> opraveno s frequent lista v COpenGL.cpp
   * Polzvai Display Lists za static models     -> class completed
   * VAs are best for no more than 1000 triangles
   * glColor3ub() faster than glColor4f() !?!?!
   * {!} da vnesa pracalculiranite sin i cos v CCamera.cpp clasa
-
-
 */
 
+#ifndef  __MAIN_H__
+#define  __MAIN_H__
 
 #ifndef STRICT
 #define STRICT
@@ -71,6 +66,4 @@ extern float g_sin[];
 #include "CTimer.h"
 #include "CDebug.h"
 
-
-
-
+#endif // __MAIN_H__
